@@ -1,0 +1,37 @@
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: $color-green;
+}
+
+.mainDiv {
+  text-align: center;
+  color: $font-color;
+  margin-bottom: 50px;
+}
+.mainDiv img {
+  padding-top: 30px;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.mainDiv h2 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.mainDiv ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 30px;
+}
+.mainDiv a:hover {
+  color: $font-color-dark!important;
+} 
+@media (min-width: 992px) { 
+  .mainDiv img {
+    width: 15%;
+  }
+}
+
+

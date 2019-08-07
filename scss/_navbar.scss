@@ -1,0 +1,38 @@
+header nav {
+  background-color: $font-color-dark;
+}
+
+.navbar-brand > a {
+  color: $font-color;
+  font-family: $font;
+}
+
+.navbar-brand {
+  font-weight: $font-bold;
+}
+.navbar-dark .navbar-toggler {
+  background: $color-green !important;
+  color: $font-color;
+}
+a:hover{
+color: #00bc9c!important;
+}
+
+header span.dash {
+  width: 70px;
+  display: inline-block;
+  border: 2px solid $font-color;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 768px) { 
+  .navbar-dark .navbar-toggler {
+    background: $font-color-dark !important;
+    color: $font-color;
+    border: 2px solid white;
+  }
+
+  header ul{
+    margin-left: auto!important;
+  }
+}
